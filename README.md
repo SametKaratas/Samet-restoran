@@ -14,7 +14,7 @@ Küçükten büyüğe gideceğiz: önce restoranı açacak, sonra ajanları tek 
 | **3 · Müdür** | Ortak el kitabını (`CLAUDE.md`) birlikte yazacağız; ajanlar arasındaki bilgiyi artık Müdür taşıyacak |
 | **4 · Tedarik ajanı** | Satın alma limitini koyup üçüncü ajanı tamamen kendimiz kuracağız; bütün ekibi birlikte deneyeceğiz |
 
-Her adımda Claude'a vereceğimiz promptlar `promptlar.md` dosyasında. Her adımın sonunda değişiklikleri kaydedip GitHub'a göndereceğiz.
+Her adımda Claude'a vereceğimiz promptlar `promptlar.md` dosyasında. Ajanların içeriğine biz karar vereceğiz: Claude bize soracak, biz cevaplayacağız. Her adımın sonunda değişiklikleri kaydedip GitHub'a göndereceğiz.
 
 ## Repoda neler var
 
