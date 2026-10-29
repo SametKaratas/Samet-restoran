@@ -10,7 +10,7 @@ Küçükten büyüğe gideceğiz: önce restoranı açacak, sonra ajanları tek 
 |---|---|
 | **0 · Restoranı açacağız** | Restoranın kartını yazacağız: konsept, masalar, saatler |
 | **1 · Rezervasyon ajanı** | İlk ajanımızı ve defterini birlikte kuracağız |
-| 2 · Şef ajanı | _(tahtada anlaşıp kendimiz)_ |
+| **2 · Şef ajanı** | Tahtada anlaşıp ikinci ajanı kendimiz kuracağız; iki ajan arasında bilgiyi elle taşıyacağız |
 | 3 · Müdür | _(birlikte)_ |
 | 4 · Tedarik ajanı | _(tamamen kendimiz)_ |
 

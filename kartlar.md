@@ -64,3 +64,27 @@ _Ajanı ve defterini birlikte yazacağız. Aşağıdaki kartlar, ajanı yazdıkt
 - [ ] Burak Öz'ün talebi kabul edilmedi, başka bir saat önerildi.
 - [ ] 12 kişilik grup için deftere bir şey yazılmadı; Patron'a sorulması istendi.
 - [ ] GitHub'da "Rezervasyon ajanı işe başladı" kaydı görünüyor.
+
+---
+
+## Adım 2 · Şef ajanı
+
+_Şef'i ve defterini tahtadaki kararlara göre kendimiz yazacağız. Rezervasyon'a kişi tahmini görevini, iki ajana da rapor bölümünü ekleyeceğiz. Sonra zinciri elle yürüteceğiz: bilgiyi bir ajandan diğerine biz taşıyacağız._
+
+### Kart 2.1 · Kişi tahmini
+> Rezervasyon, bu akşamın kişi tahminini yap.
+
+### Kart 2.2 · Menü ve porsiyon planı
+> Şef, bu akşam [Rezervasyon'un raporundaki kişi sayısı] kişi bekliyoruz. Menüyü, reçeteleri ve bu akşamın porsiyon planını hazırla.
+
+_Köşeli parantezi Rezervasyon'un raporuna bakarak biz dolduracağız._
+
+### Kart 2.3 · Kaydedip gönderelim
+> Değişiklikleri "Şef işe başladı" mesajıyla kaydet ve GitHub'a gönder.
+
+**Kontrol**
+- [ ] Rezervasyon'un raporunda kişi tahmini var ve rapor tahtada anlaştığımız başlıklarla yazılmış.
+- [ ] `defterler/menu.md`'de konseptimize uygun menü, fiyatlar, reçeteler ve porsiyon planı var.
+- [ ] Menüde "olmasın" dediğimiz bir şey yok.
+- [ ] Şef sadece kendi defterini değiştirdi.
+- [ ] İki ajanın raporu aynı başlıkları kullanıyor.
