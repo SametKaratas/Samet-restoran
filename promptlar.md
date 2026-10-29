@@ -1,15 +1,15 @@
-# Kartlar
+# Promptlar
 
-Her kartı Claude Code'a olduğu gibi kopyalayıp yapıştıracağız. Köşeli parantezli yerleri kendimiz dolduracağız.
+Her promptu Claude Code'a olduğu gibi kopyalayıp yapıştıracağız. Köşeli parantezli yerleri kendimiz dolduracağız.
 
 ---
 
 ## Adım 0 · Restoranı açacağız
 
-### Kart 0.1 · Repoyu tanıyalım
+### Prompt 0.1 · Repoyu tanıyalım
 > Bu repoda ne var? Her dosyanın ne işe yaradığını kısaca anlat.
 
-### Kart 0.2 · Restoran kartını yazalım
+### Prompt 0.2 · Restoran kartını yazalım
 > Bu repoda `restoran.md` adında bir restoran kartı oluşturalım. Bana şu dört başlığı sırayla, her seferinde bir soru sorarak doldur:
 >
 > 1. **Kimlik:** restoranın adı, konsepti (mutfak türü), semti, fiyat seviyesi
@@ -23,7 +23,7 @@ Her kartı Claude Code'a olduğu gibi kopyalayıp yapıştıracağız. Köşeli 
 >
 > Bütün cevaplarımı aldıktan sonra dosyayı yaz ve bana göster.
 
-### Kart 0.3 · Kaydedip gönderelim
+### Prompt 0.3 · Kaydedip gönderelim
 > Değişiklikleri "Restoran açıldı" mesajıyla kaydet ve GitHub'a gönder.
 
 **Kontrol**
@@ -36,14 +36,14 @@ Her kartı Claude Code'a olduğu gibi kopyalayıp yapıştıracağız. Köşeli 
 
 ## Adım 1 · Rezervasyon ajanı
 
-_Ajanı ve defterini birlikte yazacağız. Aşağıdaki kartlar, ajanı yazdıktan sonra onu denemek için._
+_Ajanı ve defterini birlikte yazacağız. Aşağıdaki promptlar, ajanı yazdıktan sonra onu denemek için._
 
-> **Saatler:** Kartlardaki saatleri kendi restoranımızın açılış ve son oturma saatine göre değiştireceğiz. Köşeli parantezdeki notlara bakalım.
+> **Saatler:** Promptlardaki saatleri kendi restoranımızın açılış ve son oturma saatine göre değiştireceğiz. Köşeli parantezdeki notlara bakalım.
 
-### Kart 1.1 · İlk rezervasyon
+### Prompt 1.1 · İlk rezervasyon
 > Ayşe Yılmaz aradı: bu akşam [açılıştan 2 saat sonra] için 4 kişilik masa istiyor.
 
-### Kart 1.2 · Yoğun bir akşam
+### Prompt 1.2 · Yoğun bir akşam
 > Bu akşam için gelen talepler:
 > - Mert Kaya, [açılış saati], 2 kişi
 > - Selin Demir, [açılıştan 30 dk sonra], 6 kişi
@@ -52,10 +52,10 @@ _Ajanı ve defterini birlikte yazacağız. Aşağıdaki kartlar, ajanı yazdıkt
 > - Ece Şahin, [son oturmadan 30 dk önce], 3 kişi
 > - Burak Öz, [son oturmadan 45 dk sonra], 2 kişi
 
-### Kart 1.3 · Büyük grup
+### Prompt 1.3 · Büyük grup
 > Bir şirket aradı: bu akşam [açılıştan 1 saat sonra] 12 kişilik bir yemek için yer istiyorlar.
 
-### Kart 1.4 · Kaydedip gönderelim
+### Prompt 1.4 · Kaydedip gönderelim
 > Değişiklikleri "Rezervasyon ajanı işe başladı" mesajıyla kaydet ve GitHub'a gönder.
 
 **Kontrol**
@@ -71,15 +71,15 @@ _Ajanı ve defterini birlikte yazacağız. Aşağıdaki kartlar, ajanı yazdıkt
 
 _Şef'i ve defterini tahtadaki kararlara göre kendimiz yazacağız. Rezervasyon'a kişi tahmini görevini, iki ajana da rapor bölümünü ekleyeceğiz. Sonra zinciri elle yürüteceğiz: bilgiyi bir ajandan diğerine biz taşıyacağız._
 
-### Kart 2.1 · Kişi tahmini
+### Prompt 2.1 · Kişi tahmini
 > Rezervasyon, bu akşamın kişi tahminini yap.
 
-### Kart 2.2 · Menü ve porsiyon planı
+### Prompt 2.2 · Menü ve porsiyon planı
 > Şef, bu akşam [Rezervasyon'un raporundaki kişi sayısı] kişi bekliyoruz. Menüyü, reçeteleri ve bu akşamın porsiyon planını hazırla.
 
 _Köşeli parantezi Rezervasyon'un raporuna bakarak biz dolduracağız._
 
-### Kart 2.3 · Kaydedip gönderelim
+### Prompt 2.3 · Kaydedip gönderelim
 > Değişiklikleri "Şef işe başladı" mesajıyla kaydet ve GitHub'a gönder.
 
 **Kontrol**

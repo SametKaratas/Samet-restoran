@@ -14,14 +14,14 @@ Küçükten büyüğe gideceğiz: önce restoranı açacak, sonra ajanları tek 
 | 3 · Müdür | _(birlikte)_ |
 | 4 · Tedarik ajanı | _(tamamen kendimiz)_ |
 
-Her adımın Claude'a vereceğimiz mesajları `kartlar.md` dosyasında. Her adımın sonunda değişiklikleri kaydedip GitHub'a göndereceğiz.
+Her adımda Claude'a vereceğimiz promptlar `promptlar.md` dosyasında. Her adımın sonunda değişiklikleri kaydedip GitHub'a göndereceğiz.
 
 ## Repoda neler var
 
 | Dosya | Ne işe yarar |
 |---|---|
 | `README.md` | Bu dosya |
-| `kartlar.md` | Her adımda Claude'a vereceğimiz mesajlar |
-| `defterler/tedarikciler.md` | Manav, kasap, balık hali, market, bakkal ve fiyatları. 4. adıma kadar kullanmayacağız. |
+| `promptlar.md` | Her adımda Claude'a vereceğimiz promptlar |
+| `defterler/tedarikciler.md` | Manav, kasap, balık hali, market, bakkal ve özel ürün tedarikçisi; ürün grupları ve fiyat aralıkları. 4. adıma kadar kullanmayacağız. |
 
 Geri kalan her şeyi biz kuracağız.
