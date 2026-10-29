@@ -112,3 +112,42 @@ _Müdür bize seçenekleri sunup cevabımızı bekleyecek. Patron olarak kararı
 - [ ] Sonunda Patron'a kısa bir özet geldi.
 - [ ] 3.2'de Müdür deftere yazdırmadan önce bize sordu ve kararımızı Rezervasyon'a iletti.
 - [ ] Rapor formatı artık sadece CLAUDE.md'de yazıyor; iki ajan dosyasında tekrar etmiyor.
+
+## Adım 4 · Tedarik ajanı
+
+_Bu adımı tamamen kendimiz yapacağız. Önce Patron olarak satın alma limitimizi restoran kartına ekleyeceğiz. Sonra Tedarik'in kutularını kendimiz dolduracak; ajanı, defterini ve CLAUDE.md'deki değişiklikleri kendimiz yazdıracağız. En sonda bütün ekibi birlikte deneyeceğiz._
+
+### Prompt 4.1 · Satın alma limiti
+> `restoran.md`'ye "Satın alma" başlığı ekle: Tedarik tek siparişte en fazla [20.000 ₺]'ye kendisi karar verir, üstü Patron onayı ister.
+
+_Limiti kendi restoranımıza göre değiştirebiliriz. Bu dosyanın sahibi biziz; bu yüzden değişikliği biz istiyoruz._
+
+### Kendimiz yazacağız
+- Tedarik ajanı (`.claude/agents/tedarik.md`) ve defteri (`defterler/siparisler.md`)
+- `CLAUDE.md`'de yeni ajanın yeri: defter sahipleri tablosu ve zincir
+
+### Prompt 4.2 · Tam zincir
+> Saat 12:00. Bu akşamın hazırlığını başlat.
+
+_Bu sefer zincirde üç ajan var: Rezervasyon, Şef, Tedarik. Sonunda Patron'a özet gelmeli._
+
+### Prompt 4.3 · Büyük alım
+> Hafta sonu için iki akşamın malzemesini bugünden sipariş et.
+
+_Tutar limiti geçerse Tedarik siparişi vermemeli; Müdür bize sormalı._
+
+### Prompt 4.4 · Teslimat sorunu
+> [Siparişte tutarı en yüksek tedarikçi] aradı: bu akşam teslimat yapamıyor.
+
+_Müdür kimlere haber verecek? Menü değişecek mi? Kendi restoranımızın siparişine bakıp köşeli parantezi dolduracağız._
+
+### Prompt 4.5 · Kaydedip gönderelim
+> Değişiklikleri "Tedarik işe başladı" mesajıyla kaydet ve GitHub'a gönder.
+
+**Kontrol**
+- [ ] `restoran.md`'de satın alma limiti var.
+- [ ] `defterler/siparisler.md`'de tedarikçi tedarikçi sipariş, tutarlar ve genel toplam var.
+- [ ] Malzemeler Şef'in reçetesinden ve porsiyon planından hesaplandı.
+- [ ] 4.3'te limit aşıldığında sipariş "onay bekliyor" kaldı ve Müdür bize sordu.
+- [ ] 4.4'te Müdür hem Tedarik'e hem gerekiyorsa Şef'e haber verdi; menü ve sipariş birlikte güncellendi.
+- [ ] Tedarik sadece kendi defterine yazdı.

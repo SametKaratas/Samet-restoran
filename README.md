@@ -12,7 +12,7 @@ Küçükten büyüğe gideceğiz: önce restoranı açacak, sonra ajanları tek 
 | **1 · Rezervasyon ajanı** | İlk ajanımızı ve defterini birlikte kuracağız |
 | **2 · Şef ajanı** | Tahtada anlaşıp ikinci ajanı kendimiz kuracağız; iki ajan arasında bilgiyi elle taşıyacağız |
 | **3 · Müdür** | Ortak el kitabını (`CLAUDE.md`) birlikte yazacağız; ajanlar arasındaki bilgiyi artık Müdür taşıyacak |
-| 4 · Tedarik ajanı | _(tamamen kendimiz)_ |
+| **4 · Tedarik ajanı** | Satın alma limitini koyup üçüncü ajanı tamamen kendimiz kuracağız; bütün ekibi birlikte deneyeceğiz |
 
 Her adımda Claude'a vereceğimiz promptlar `promptlar.md` dosyasında. Her adımın sonunda değişiklikleri kaydedip GitHub'a göndereceğiz.
 
@@ -22,6 +22,6 @@ Her adımda Claude'a vereceğimiz promptlar `promptlar.md` dosyasında. Her adı
 |---|---|
 | `README.md` | Bu dosya |
 | `promptlar.md` | Her adımda Claude'a vereceğimiz promptlar |
-| `defterler/tedarikciler.md` | Manav, kasap, balık hali, market, bakkal ve özel ürün tedarikçisi; ürün grupları ve fiyat aralıkları. 4. adıma kadar kullanmayacağız. |
+| `defterler/tedarikciler.md` | Manav, kasap, balık hali, market, bakkal ve özel ürün tedarikçisi; ürün grupları ve fiyat aralıkları. 4. adımda Tedarik ajanı kullanacak. |
 
 Geri kalan her şeyi biz kuracağız.
