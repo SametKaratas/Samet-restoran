@@ -88,3 +88,27 @@ _Köşeli parantezi Rezervasyon'un raporuna bakarak biz dolduracağız._
 - [ ] Menüde "olmasın" dediğimiz bir şey yok.
 - [ ] Şef sadece kendi defterini değiştirdi.
 - [ ] İki ajanın raporu aynı başlıkları kullanıyor.
+
+## Adım 3 · Müdür
+
+_CLAUDE.md dosyasını birlikte yazacağız ve Müdür'ü işe alacağız. Rapor bölümünü iki ajan dosyasından çıkarıp CLAUDE.md'ye taşıyacağız. Sonra **yeni bir oturum açıp** Adım 2'de elle yürüttüğümüz zinciri Müdür'e bırakacağız._
+
+### Prompt 3.1 · Akşam hazırlığı
+> Saat 12:00. Bu akşamın hazırlığını başlat.
+
+_Arada hiçbir şey yazmayacağız. Ekranda önce Rezervasyon'un, sonra Şef'in çalıştığını izleyeceğiz._
+
+### Prompt 3.2 · Onay gereken bir talep
+> Bir doğum günü grubu aradı: bu akşam [açılıştan 2 saat sonra] 10 kişi gelmek istiyorlar.
+
+_Müdür bize seçenekleri sunup cevabımızı bekleyecek. Patron olarak kararı biz vereceğiz; Müdür kararımızı Rezervasyon'a iletecek._
+
+### Prompt 3.3 · Kaydedip gönderelim
+> Değişiklikleri "Müdür işe başladı" mesajıyla kaydet ve GitHub'a gönder.
+
+**Kontrol**
+- [ ] 3.1'de Rezervasyon ve Şef sırayla çalıştı; aradaki bilgiyi biz taşımadık.
+- [ ] Müdür defterlere kendisi yazmadı, işi ajanlara verdi.
+- [ ] Sonunda Patron'a kısa bir özet geldi.
+- [ ] 3.2'de Müdür deftere yazdırmadan önce bize sordu ve kararımızı Rezervasyon'a iletti.
+- [ ] Rapor formatı artık sadece CLAUDE.md'de yazıyor; iki ajan dosyasında tekrar etmiyor.
