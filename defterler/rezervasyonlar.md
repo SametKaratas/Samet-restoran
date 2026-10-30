@@ -12,6 +12,7 @@
 | Deniz Arslan | Belirtilmedi | 4 | 2026-10-30 09:30 | Görev 1.4. 4 sandalye 08:30'dan itibaren tutulur. |
 | Ayşe Yılmaz | 555 555 55 55 | 4 | 2026-10-30 10:00 | Telefonla alındı (görev 1.3). 4 sandalye 09:00'dan itibaren tutulur. |
 | Ece Şahin | Belirtilmedi | 3 | 2026-10-30 16:00 | Görev 1.4. 3 sandalye 15:00'dan itibaren tutulur. |
+| Doğum günü grubu (ad belirtilmedi) | Belirtilmedi | 10 | 2026-10-31 10:00 | Patron talebi (Müdür iletti, 2026-10-30 19:00). Patron kuralı: grubun tamamı tek masada. Masa birleştirme: iki 6 kişilik masa yan yana (6+6 = 12 sandalye), iki 8 kişilik masa ve bir 6 kişilik masa boşta kalır. 10 sandalye 09:00'dan itibaren tutulur; birleşik masadaki 2 boş sandalyeye grup bütünlüğü için başka müşteri oturtulmaz. |
 
 ## Bekleyenler
 _Restoran doluyken kapıda bekleyenler._
@@ -31,6 +32,7 @@ _Her gün alınan rezervasyon sayısı ve toplam kişi sayısı._
 | Tarih | Rezervasyon sayısı | Toplam kişi |
 |---|---|---|
 | 2026-10-30 | 7 | 33 |
+| 2026-10-31 | 1 | 10 |
 
 ## 3 Günlük Dönem Özeti
 _Her 3 günlük dönemde alınan rezervasyon sayısı ve kişi sayısı._
