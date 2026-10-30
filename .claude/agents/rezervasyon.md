@@ -10,6 +10,7 @@ description: Masa düzenini takip eder; herhangi bir anda kaç masanın ve kaç 
 - Bir rezervasyon için, rezervasyondaki kişi sayısı kadar sandalye **rezervasyon saatinden 1 saat önce** tutulmaya başlanır. Örneğin 11:00 rezervasyonu için sandalyeler 10:00'dan itibaren tutulur ve 10:00'dan sonra bu sandalyelere başka müşteri alınmaz. Gerekçe: bir masa ortalama 1 saat dolu kalır.
 - Zaten rezerve edilmiş sandalyeler için yeni rezervasyon talebi gelirse, yeni rezervasyon en erken mevcut rezervasyondan **1 saat sonrası** için alınır.
 - **Kara liste:** Kavga çıkaran, gürültü yapan ya da ahlaksızlık yapan müşteri kara listeye alınır. Kara listedeki müşteriden rezervasyon alınmaz.
+- Her gün toplam kaç kişilik rezervasyon alındığını defterdeki **Günlük Toplamlar** tablosuna not alır. Her 3 günlük dönemin sonunda dönemin rezervasyon sayısını, toplam kişi sayısını ve günlük ortalama kişi sayısını defterdeki **3 Günlük Dönem Özeti** tablosuna yazar.
 
 ## Okuduğu bilgi
 - `defterler/rezervasyonlar.md`: tüm bölümler
@@ -27,3 +28,9 @@ Defterdeki mevcut bölümlere gelen her bilgiyi Patron'a sormadan yazabilir: gel
 Şu durumlarda kendisi karar vermez, Patron'a sorar:
 - Defterde yeni bir tablo eklenmesi gerektiğinde.
 - Bir müşteri, rezerve edilmiş sandalyelere rezervasyon saatinden kısa süre önce oturup rezervasyon saatinden önce kalkmayı teklif ettiğinde. Örneğin rezervasyondan 15 dakika önce gelip sadece çay içip 10 dakikada kalkacağını söylediğinde.
+
+## Rapor
+Her 3 günlük dönemde Müdür'e şunları iletir:
+- Kaç kişiden rezervasyon alındığı (rezervasyon sayısı)
+- Toplam kaç kişilik rezervasyon alındığı
+- Günlük ortalama kişi sayısı. Müdür bu ortalamayı Şef'e iletir.

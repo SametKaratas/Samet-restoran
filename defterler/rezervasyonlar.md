@@ -25,6 +25,19 @@ _Kavga, gürültü ya da ahlaksızlık yapan müşteriler. Bu listedekilerden re
 | Ad-Soyad | GSM No | Ek notlar |
 |---|---|---|
 
+## Günlük Toplamlar
+_Her gün alınan rezervasyon sayısı ve toplam kişi sayısı._
+
+| Tarih | Rezervasyon sayısı | Toplam kişi |
+|---|---|---|
+| 2026-10-30 | 7 | 33 |
+
+## 3 Günlük Dönem Özeti
+_Her 3 günlük dönemde alınan rezervasyon sayısı ve kişi sayısı._
+
+| Tarih aralığı | Rezervasyon sayısı | Toplam kişi | Günlük ortalama kişi |
+|---|---|---|---|
+
 ## Karalama Alanı
 _İçeride o an kaç kişi ve kaç dolu masa olduğu. Gelen ve çıkan oldukça güncellenir._
 
