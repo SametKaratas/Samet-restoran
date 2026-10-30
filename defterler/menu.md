@@ -33,31 +33,31 @@ Her malzemeden elde ne kadar kaldığı yazılır. Adetle sayılmayan malzemeler
 
 | Malzeme | Kalan miktar | Birim (kg / adet) |
 |---|---|---|
-| Beyaz peynir | 2,5 | kg |
-| Kaşar peyniri | 2 | kg |
-| Kolot peyniri | 4 | kg |
-| Tereyağı | 4,75 | kg |
-| Bal | 1,5 | kg |
-| Kaymak | 1,5 | kg |
-| Yumurta | 150 | adet |
-| Domates | 4 | kg |
-| Salatalık | 3 | kg |
-| Yeşil biber | 1,5 | kg |
-| Mısır unu | 9 | kg |
-| Buğday unu | 1 | kg |
-| Hamsi | 12,5 | kg |
-| Ayçiçek yağı | 2,5 | kg |
-| Soğan | 3 | kg |
-| Karalahana | 7,5 | kg |
-| Kuru fasulye | 1,5 | kg |
-| Domates salçası | 0,5 | kg |
-| Pul biber | 0,05 | kg |
-| Tuz | 0,55 | kg |
-| Yoğurt | 9 | kg |
-| Süt | 1,5 | kg |
-| Karbonat | 0,1 | kg |
-| Siyah çay | 0,6 | kg |
-| Şeker | 1 | kg |
+| Beyaz peynir | 1,3 | kg |
+| Kaşar peyniri | 1,04 | kg |
+| Kolot peyniri | 3,44 | kg |
+| Tereyağı | 3,71 | kg |
+| Bal | 0,78 | kg |
+| Kaymak | 0,78 | kg |
+| Yumurta | 118 | adet |
+| Domates | 2,08 | kg |
+| Salatalık | 1,56 | kg |
+| Yeşil biber | 0,78 | kg |
+| Mısır unu | 6,76 | kg |
+| Buğday unu | 0,64 | kg |
+| Hamsi | 9,75 | kg |
+| Ayçiçek yağı | 1,95 | kg |
+| Soğan | 2,55 | kg |
+| Karalahana | 6,9 | kg |
+| Kuru fasulye | 1,38 | kg |
+| Domates salçası | 0,46 | kg |
+| Pul biber | 0,046 | kg |
+| Tuz | 0,451 | kg |
+| Yoğurt | 7,41 | kg |
+| Süt | 0,96 | kg |
+| Karbonat | 0,064 | kg |
+| Siyah çay | 0,204 | kg |
+| Şeker | 0,34 | kg |
 
 ## Bekleyen Siparişler
 Sipariş verildiğinde buraya yazılır. Yemek hazırlanınca buradan kaldırılır.
