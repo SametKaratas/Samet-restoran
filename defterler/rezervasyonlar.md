@@ -41,5 +41,5 @@ _Her 3 günlük dönemde alınan rezervasyon sayısı ve kişi sayısı._
 ## Karalama Alanı
 _İçeride o an kaç kişi ve kaç dolu masa olduğu. Gelen ve çıkan oldukça güncellenir._
 
-**İçerideki kişi sayısı:**
-**Dolu masa sayısı:**
+**İçerideki kişi sayısı:** 0 (2026-10-30 17:00 kapanış)
+**Dolu masa sayısı:** 0 (2026-10-30 17:00 kapanış)
