@@ -37,3 +37,6 @@
 - Zeytinyağlı yemekler
 - Meyve
 - Pırasa yemeği
+
+## Satın alma
+Tedarikçi tek siparişte en fazla **100.000 ₺**'ye kendisi karar verir. Üstü Müdür onayı ister.

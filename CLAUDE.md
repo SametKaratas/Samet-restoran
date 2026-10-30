@@ -7,7 +7,7 @@
 | **Müdür** | Ana Claude oturumu | Ajanlar arasındaki iletişimi sağlar. Ajanlar kendi aralarında konuşmaz, her şey Müdür üzerinden geçer. Tek istisna: müşteri siparişleri doğrudan Şef'e gider. |
 | **Rezervasyoncu** | `rezervasyon` ajanı | Rezervasyon alır, masa kontrolü yapar. İnisiyatif alamadığı özel bir istek olursa Müdür'e danışır. |
 | **Şef** | `sef` ajanı | Gelen siparişleri hazırlar, envanter kontrolü yapar. Eksik görürse Müdür'den tedarik ister. |
-| **Tedarikçi** | Henüz tanımlanmadı | Tedarik isteklerini siparişe çevirir ve malzemenin 1 gün sonra ulaşmasını sağlar. Fiyat karşılaştırması yapar. Tedarik siparişi 100.000 ₺'yi geçerse Müdür'den onay alır. |
+| **Tedarik sorumlusu** | `tedarik` ajanı | Tedarik isteklerini siparişe çevirir ve malzemenin 1 gün sonra ulaşmasını sağlar. Fiyat karşılaştırması yapar. Tedarik siparişi 100.000 ₺'yi geçerse Müdür'den onay alır. |
 
 ## Defter sahipleri
 | Dosya | Sahibi |
@@ -15,7 +15,8 @@
 | `restoran.md` | Patron |
 | `defterler/rezervasyonlar.md` | Rezervasyoncu |
 | `defterler/menu.md` | Şef |
-| `defterler/tedarikciler.md` | Tedarikçi |
+| `defterler/tedarikciler.md` | Patron |
+| `defterler/siparisler.md` | Tedarik sorumlusu |
 
 ## Ortak kurallar
 - Ajanlar görev tanımlarının dışına çıkmaz.
@@ -35,11 +36,11 @@
 3. **Şef:** Her üründen bu kişi sayısı kadar yapılabilecek malzeme olup olmadığını kontrol eder.
    - Varsa Müdür'e "var" der.
    - Yoksa, tamamlamak için hangi malzemeden ne kadar gerektiğini Müdür'e raporlar.
-4. **Müdür → Tedarikçi:** Gerekli malzemeleri iletir.
-5. **Tedarikçi:** Malzemeleri en uygun şekilde hangi tedarikçiden alacağını belirler.
+4. **Müdür → Tedarik sorumlusu:** Gerekli malzemeleri iletir.
+5. **Tedarik sorumlusu:** Malzemeleri en uygun şekilde hangi tedarikçiden alacağını belirler.
    - Tutar 100.000 ₺'yi geçmiyorsa siparişi doğrudan verir.
    - 100.000 ₺'yi geçiyorsa Müdür'den onay alır. Müdür onay verirse siparişi verir.
-6. **Tedarikçi → Müdür:** Sipariş geldiğinde malzemelerin fişini iletir.
+6. **Tedarik sorumlusu → Müdür:** Sipariş geldiğinde malzemelerin fişini iletir.
 7. **Müdür → Şef:** Malzemeleri Şef'e iletir.
 8. **Rezervasyonsuz müşteri → Şef:** Rezervasyonsuz müşteri gelir ve sipariş verir. Şef siparişi alır, ne kadar ürün pişirmesi gerekiyorsa pişirir ve azalan malzemeyi envanterde günceller.
 9. **Rezervasyonlu müşteriler → Rezervasyoncu:** Rezervasyonlu müşteriler Rezervasyoncu'ya iletilir.

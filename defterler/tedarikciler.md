@@ -1,6 +1,6 @@
 # Tedarikçiler
 
-> Bu defterin sahibi Tedarikçi'dir. Tedarikçi alımları buna göre planlar.
+> Bu defterin sahibi Patron'dur. Tedarik sorumlusu alımları buna göre planlar.
 
 > **Nasıl kullanılır:** Liste tek tek ürünleri değil, **ürün gruplarını** içerir. Her malzeme bir gruba düşer: mozzarella "İtalyan peynirleri"ne, pide hamuru için un "Kuru gıda"ya, soya sosu "Asya ürünleri"ne. Fiyatlar eğitim için uydurulmuş **tahmini aralıklardır**.
 
