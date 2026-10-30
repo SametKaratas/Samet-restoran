@@ -52,6 +52,10 @@ _Her sipariş için aşağıdaki kalıp kullanılır._
 
 _Not: Birim fiyatlar tedarikciler.md'deki fiyat aralıklarının ortasıdır (kesin fiyat yok). Her ürün grubu tek tedarikçide olduğu için karşılaştırma aralıklar üzerinden yapıldı. Aralıkların üst sınırıyla en kötü durumda tutar yaklaşık 6.760 ₺, 100.000 ₺ sınırının çok altında. Siyah çay listede ayrı bir grup olarak yok; en yakın grup olan Market / Kuru gıda'dan alındı. Yumurta 30'lu koli olarak satıldığı için 2 koli alındı (28 adet fazla)._
 
+**Güncelleme (2026-10-30, 19:00 sonrası): Market teslimatı iptal.** Market 2026-10-31 sabahı teslimat yapamayacağını bildirdi. Bu siparişteki 17 Market kalemi (siyah çay, şeker, beyaz peynir, kaşar, kolot, tereyağı, ayçiçek yağı, bal, karbonat, kaymak, yoğurt, süt, yumurta, mısır unu, buğday unu, kuru fasulye, domates salçası; toplam 3.304,21 ₺) gelmeyecek. tedarikciler.md'de bu ürün gruplarının (Kuru gıda, Yağ, Süt ürünleri, Yerli peynir, Yumurta, Konserve ve sos, Tatlı malzemesi) hiçbiri başka bir tedarikçide yok, bu yüzden **hiçbir kalem için alternatif yok**, yeni sipariş verilmedi. Manav, Balık hali ve Bakkal kalemleri planlandığı gibi geliyor.
+
+**Güncel genel toplam (gelecek kalemler):** 1.093,62 ₺ (Manav 384,75 ₺ + Balık hali 687,50 ₺ + Bakkal 21,37 ₺)
+
 ### Sipariş
 **Sipariş tarihi:** 2026-10-30 19:00
 **Termin (ulaşma tarihi):** 2026-10-31 (2026-11-01 Pazar sabahı için)
@@ -87,3 +91,35 @@ _Not: Birim fiyatlar tedarikciler.md'deki fiyat aralıklarının ortasıdır (ke
 **Genel toplam:** 15.496,26 ₺
 
 _Not: Patron'un isteğiyle hafta sonunun ikinci sabahı (2026-11-01 Pazar) için ayrı sipariş. Fiyatlandırma ilk siparişle aynı: birim fiyatlar tedarikciler.md'deki aralıkların ortası, siyah çay Market / Kuru gıda'dan. Teslim 1 gün sonra olduğundan malzeme 2026-10-31'de gelir ve Pazar sabahına kadar bekler (hamsi ve sebze için soğuk zincir gerekir). Aralıkların üst sınırıyla en kötü durumda tutar yaklaşık 23.811 ₺, 100.000 ₺ sınırının altında. Yumurta 5 koli alındı (28 adet fazla); ilk siparişin 28 fazla yumurtası Şef'in hesabında düşülmüşse 4 koli yeterdi._
+
+**Güncelleme (2026-10-30, 19:00 sonrası): Market teslimatı iptal.** Market 2026-10-31 sabahı teslimat yapamayacağını bildirdi. Bu siparişteki 17 Market kalemi (siyah çay, şeker, beyaz peynir, kaşar, kolot, tereyağı, ayçiçek yağı, bal, karbonat, kaymak, yoğurt, süt, yumurta, mısır unu, buğday unu, kuru fasulye, domates salçası; toplam 10.821,75 ₺) gelmeyecek. tedarikciler.md'de bu ürün gruplarının hiçbiri başka bir tedarikçide yok, bu yüzden **hiçbir kalem için alternatif yok**, yeni sipariş verilmedi. Manav, Balık hali ve Bakkal kalemleri planlandığı gibi geliyor.
+
+**Güncel genel toplam (gelecek kalemler):** 4.674,51 ₺ (Manav 1.425,00 ₺ + Balık hali 3.125,00 ₺ + Bakkal 124,51 ₺)
+
+### Sipariş
+**Sipariş tarihi:** 2026-10-30
+**Termin (ulaşma tarihi):** 2026-11-01 (Pazar sabahı)
+
+| Malzeme | Miktar | Birim fiyat | Toplam fiyat |
+|---|---|---|---|
+| Siyah çay (Market, Kuru gıda) | 0,996 kg | 70,00 ₺/kg | 69,72 ₺ |
+| Şeker (Market, Tatlı malzemesi) | 1,66 kg | 422,50 ₺/kg | 701,35 ₺ |
+| Beyaz peynir (Market, Yerli peynir) | 3,7 kg | 400,00 ₺/kg | 1.480,00 ₺ |
+| Kaşar peyniri (Market, Yerli peynir) | 2,96 kg | 400,00 ₺/kg | 1.184,00 ₺ |
+| Kolot peyniri (Market, Yerli peynir) | 4,56 kg | 400,00 ₺/kg | 1.824,00 ₺ |
+| Tereyağı (Market, Yağ) | 5,79 kg | 445,00 ₺/kg | 2.576,55 ₺ |
+| Ayçiçek yağı (Market, Yağ) | 3,05 kg | 445,00 ₺/kg | 1.357,25 ₺ |
+| Bal (Market, Tatlı malzemesi) | 2,22 kg | 422,50 ₺/kg | 937,95 ₺ |
+| Karbonat (Market, Tatlı malzemesi) | 0,136 kg | 422,50 ₺/kg | 57,46 ₺ |
+| Kaymak (Market, Süt ürünleri) | 2,22 kg | 97,50 ₺/kg | 216,45 ₺ |
+| Yoğurt (Market, Süt ürünleri) | 10,59 kg | 97,50 ₺/kg | 1.032,53 ₺ |
+| Süt (Market, Süt ürünleri) | 2,04 kg | 97,50 ₺/kg | 198,90 ₺ |
+| Yumurta (Market, 30'lu koli) | 7 koli (210 adet; gereken 154) | 205,00 ₺/koli | 1.435,00 ₺ |
+| Mısır unu (Market, Kuru gıda) | 11,24 kg | 70,00 ₺/kg | 786,80 ₺ |
+| Buğday unu (Market, Kuru gıda) | 1,36 kg | 70,00 ₺/kg | 95,20 ₺ |
+| Kuru fasulye (Market, Kuru gıda) | 1,62 kg | 70,00 ₺/kg | 113,40 ₺ |
+| Domates salçası (Market, Konserve ve sos) | 0,54 kg | 110,00 ₺/kg | 59,40 ₺ |
+
+**Genel toplam:** 14.125,96 ₺
+
+_Not: Market iptali sonrası yeniden sipariş (Müdür kararı). Market 2026-10-31 teslimatını iptal ettiği için yukarıdaki iki siparişten düşen 17 Market kalemi, aynı miktar ve birim fiyatlarla birleştirilerek yeniden sipariş edildi: Cumartesi siparişinden 3.304,21 ₺ + Pazar siparişinden 10.821,75 ₺. Malzemeler 2026-11-01 Pazar servisi için kullanılacak. Yumurta iki siparişteki gibi 2+5=7 koli alındı (56 adet fazla); toplam ihtiyaç 154 adet olduğundan 6 koli yeterdi. Aralıkların üst sınırıyla en kötü durumda tutar 100.000 ₺ sınırının çok altında._
