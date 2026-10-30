@@ -5,6 +5,7 @@
 ## Rezervasyon Listesi
 | Ad-Soyad | GSM No | Kaç kişi | Rezervasyon saati | Ek notlar |
 |---|---|---|---|---|
+| Ayşe Yılmaz | 555 555 55 55 | 4 | 2026-10-30 10:00 | Telefonla alındı (görev 1.3). 4 sandalye 09:00'dan itibaren tutulur. |
 
 ## Bekleyenler
 _Restoran doluyken kapıda bekleyenler._
